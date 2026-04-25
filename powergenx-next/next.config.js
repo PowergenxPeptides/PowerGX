@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/PowerGX',
+  basePath: process.env.BASE_PATH || '',
 }
 
 module.exports = nextConfig
