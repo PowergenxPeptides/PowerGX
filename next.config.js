@@ -2,12 +2,12 @@
 
 const nextConfig = {
   output: 'export',
-  distDir: '../compilation',
-
+  distDir: 'compilation',
   images: { unoptimized: true },
   trailingSlash: true,
-  basePath: "/powergenx-next/compilation",
-  assetPrefix: "/powergenx-next/compilation",
+  
+  // basePath: "/powergenx-next/",
+  // assetPrefix: "/powergenx-next/",
 }
 
 module.exports = nextConfig
