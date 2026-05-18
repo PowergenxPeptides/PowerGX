@@ -3,7 +3,7 @@
 1. install node dependencies: ``npm install``
 2. build to static site: ``npx next build``
 3. (optional) serve the static site ``python -m http.server 80``
-4. (optional) open the static site by typing ``http://localhost:80`` in your browser
+4. (optional) open the static site by typing ``http://localhost:80/out`` in your browser
 
 ## 🏗 Project Structure
 
